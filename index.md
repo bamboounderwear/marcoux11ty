@@ -1,5 +1,6 @@
 ---
 layout: layout.njk
+title: Home
 ---
 # Welcome to my Eleventy site
 
