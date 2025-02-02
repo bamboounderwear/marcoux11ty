@@ -6,4 +6,4 @@ title: Home
 
 This is a minimal Eleventy V3 website.
 
-![Sample Image](https://placehold.co/600x400)
+![Sample Image](/assets/images/image.jpg)
