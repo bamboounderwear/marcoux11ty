@@ -2,8 +2,11 @@
 layout: layout.njk
 title: Blog
 ---
-# Blog
+# Blog Posts
 
-Here are our latest posts:
+Here are our latest blog posts:
 
-- Coming soon!
+{% for post in collections.post | reverse %}
+- [{{ post.data.title }}]({{ post.url }})
+  <small>{{ post.date | date: "%Y-%m-%d" }}</small>
+{% endfor %}
