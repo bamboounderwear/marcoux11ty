@@ -19,4 +19,8 @@
   ul {
     @apply list-disc pl-5 mb-4;
   }
+  /* Remove bullets from navigation menu */
+  nav ul {
+    @apply list-none p-0;
+  }
 }
