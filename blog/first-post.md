@@ -4,14 +4,19 @@ title: Getting Started with Eleventy
 date: 2024-01-15
 tags: post
 components:
-  - author-bio.njk
-  - image.njk
-author:
-  name: Jane Smith
-  bio: Senior web developer passionate about JAMstack and modern web development.
-  avatar: https://i.pravatar.cc/300?img=1
-  twitter: janesmith
-imgurl: https://placehold.co/600x400.jpg
+  - name: author-bio.njk
+    data:
+      author:
+        name: Jane Smith
+        bio: Senior web developer passionate about JAMstack and modern web development.
+        avatar: https://i.pravatar.cc/300?img=1
+        twitter: janesmith
+  - name: image.njk
+    data:
+      imgurl: https://placehold.co/600x400.jpg
+  - name: image.njk
+    data:
+      imgurl: https://placehold.co/800x600.jpg
 ---
 # Getting Started with Eleventy
 
