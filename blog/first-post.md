@@ -13,7 +13,7 @@ components:
         twitter: janesmith
   - name: image.njk
     data:
-      imgurl: /assets/images/burger.jpg
+      imgurl: https://placehold.co/800x600.jpg
   - name: image.njk
     data:
       imgurl: https://placehold.co/800x600.jpg
