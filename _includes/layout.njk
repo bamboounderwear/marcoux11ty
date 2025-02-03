@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }} - Eleventy Site</title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body>
+<body class="min-h-full flex flex-col bg-gray-50">
     {% include "nav.njk" %}
-    <main>
+    <main class="flex-grow container mx-auto px-4 py-8">
         {{ content | safe }}
         {% if components %}
             {% for component in components %}

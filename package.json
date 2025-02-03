@@ -2,10 +2,14 @@
   "name": "eleventy-site",
   "private": true,
   "scripts": {
-    "dev": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "dev": "concurrently \"npx @11ty/eleventy --serve\" \"npx tailwindcss -i ./src/css/tailwind.css -o ./_site/assets/css/style.css --watch\"",
+    "build": "npx @11ty/eleventy && npx tailwindcss -i ./src/css/tailwind.css -o ./_site/assets/css/style.css"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0-alpha.5"
+    "@11ty/eleventy": "^3.0.0-alpha.5",
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "concurrently": "^8.2.2"
   }
 }
