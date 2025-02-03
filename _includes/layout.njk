@@ -10,6 +10,9 @@
     {% include "nav.njk" %}
     <main>
         {{ content | safe }}
+        {% for component in components %}
+            {% include component %}
+        {% endfor %}
     </main>
     {% include "footer.njk" %}
     <script src="/assets/js/main.js"></script>

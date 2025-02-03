@@ -15,3 +15,74 @@
     padding: 1rem 0;
     border-top: 1px solid #eee;
 }
+
+/* Component Styles */
+.page-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.page-header .subtitle {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.content-block {
+    margin: 2rem 0;
+}
+
+.image-block {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.image-block img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-block .caption {
+    color: #666;
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* Author Bio Component Styles */
+.author-bio {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.author-info {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+}
+
+.author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-details h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+.author-details p {
+    margin: 0 0 1rem 0;
+    font-size: 0.95rem;
+}
+
+.author-twitter {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    background: #1da1f2;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
