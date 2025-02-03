@@ -4,11 +4,12 @@ title: Building with Web Standards
 date: 2024-01-20
 tags: post
 components:
-  - author-bio.njk
-author:
-  name: John Doe
-  bio: Web standards advocate and accessibility specialist with 10 years of experience.
-  avatar: https://i.pravatar.cc/300?img=2
+  - name: author-bio.njk
+    data:
+      author:
+        name: John Doe
+        bio: Web standards advocate and accessibility specialist with 10 years of experience.
+        avatar: https://i.pravatar.cc/300?img=2
 ---
 # Building with Web Standards
 
