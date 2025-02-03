@@ -4,12 +4,10 @@ title: Building with Web Standards
 date: 2024-01-20
 tags: post
 components:
-  - name: author-bio.njk
+  - name: rich-text.njk
     data:
-      author:
-        name: John Doe
-        bio: Web standards advocate and accessibility specialist with 10 years of experience.
-        avatar: https://i.pravatar.cc/300?img=2
+      title: Why We Chose Eleventy
+      text: After evaluating various static site generators, Eleventy stood out for its simplicity and flexibility. It allows us to build fast, maintainable websites without unnecessary complexity.
 ---
 # Building with Web Standards
 
