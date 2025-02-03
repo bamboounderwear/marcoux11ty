@@ -1,0 +1,10 @@
+{% set position = position | default("left") %}
+<div class="image-text-block {{ position }}">
+  {% if position == "left" %}
+    <img src="{{ image }}" alt="{{ alt }}">
+    <div class="text">{{ text | safe }}</div>
+  {% else %}
+    <div class="text">{{ text | safe }}</div>
+    <img src="{{ image }}" alt="{{ alt }}">
+  {% endif %}
+</div>

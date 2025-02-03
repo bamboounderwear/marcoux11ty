@@ -16,42 +16,28 @@
     border-top: 1px solid #eee;
 }
 
-/* Author Bio Component Styles */
-.author-bio {
-    margin-top: 3rem;
-    padding: 1.5rem;
-    background: #f8f9fa;
-    border-radius: 8px;
-}
-
-.author-info {
+.image-text-block {
     display: flex;
-    gap: 1rem;
-    align-items: start;
-}
-
-.author-avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.author-details h4 {
-    margin: 0 0 0.5rem 0;
-}
-
-.author-details p {
-    margin: 0 0 1rem 0;
-    font-size: 0.95rem;
-}
-
-.author-twitter {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    background: #1da1f2;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.9rem;
-}
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .image-text-block img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  .image-text-block .text {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  /* On desktop: force side-by-side layout */
+  @media (min-width: 768px) {
+    .image-text-block {
+      flex-wrap: nowrap;
+    }
+  }
+  
