@@ -11,6 +11,14 @@ components:
         bio: Senior web developer passionate about JAMstack and modern web development.
         avatar: https://i.pravatar.cc/300?img=1
         twitter: janesmith
+  - name: rich-text.njk
+    data:
+      title: Why We Chose Eleventy
+      text: After evaluating various static site generators, Eleventy stood out for its simplicity and flexibility. It allows us to build fast, maintainable websites without unnecessary complexity.
+  - name: rich-text.njk
+    data:
+      title: Our Development Process
+      text: We follow a component-based approach to building websites, making our code modular and reusable. This helps us maintain consistency across our projects.
   - name: image.njk
     data:
       imgurl: https://placehold.co/600x400.jpg
