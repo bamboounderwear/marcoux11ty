@@ -1,12 +1,11 @@
 ---
 layout: layout.njk
 title: Projects
-components:
-  - components/page-header.njk
-  - components/content-block.njk
-content_title: Our Recent Projects
-content: |
-  {% for project in collections.project %}
-  - [{{ project.data.title }}]({{ project.url }})
-  {% endfor %}
 ---
+# Our Projects
+
+Here are some of our recent projects:
+
+{% for project in collections.project %}
+- [{{ project.data.title }}]({{ project.url }})
+{% endfor %}

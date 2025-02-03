@@ -16,37 +16,6 @@
     border-top: 1px solid #eee;
 }
 
-/* Component Styles */
-.page-header {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.page-header .subtitle {
-    color: #666;
-    font-size: 1.2rem;
-}
-
-.content-block {
-    margin: 2rem 0;
-}
-
-.image-block {
-    margin: 2rem 0;
-    text-align: center;
-}
-
-.image-block img {
-    max-width: 100%;
-    height: auto;
-}
-
-.image-block .caption {
-    color: #666;
-    font-style: italic;
-    margin-top: 0.5rem;
-}
-
 /* Author Bio Component Styles */
 .author-bio {
     margin-top: 3rem;
