@@ -6,12 +6,14 @@ tags: post
 components:
   - author-bio.njk
   - image.njk
+  - image.njk
 author:
   name: Jane Smith
   bio: Senior web developer passionate about JAMstack and modern web development.
   avatar: https://i.pravatar.cc/300?img=1
   twitter: janesmith
 imgurl: https://placehold.co/600x400.jpg
+imgurl: https://placehold.co/600x600.jpg
 ---
 # Getting Started with Eleventy
 
