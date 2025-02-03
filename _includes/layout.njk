@@ -11,7 +11,7 @@
   <main>
     {{ content | safe }}
     {% for component in components %}
-      {% include component.template, component %}
+      {% include component.template with component %}
     {% endfor %}
   </main>
   {% include "footer.njk" %}
