@@ -11,8 +11,7 @@
     <main>
         {{ content | safe }}
         {% for component in components %}
-            {% set componentData = component.data %}
-            {% include component.name with componentData %}
+            {% include component.name, component.data %}
         {% endfor %}
     </main>
     {% include "footer.njk" %}
