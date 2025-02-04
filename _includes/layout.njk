@@ -8,7 +8,7 @@
 </head>
 <body class="min-h-full flex flex-col bg-gray-50">
     {% include "nav.njk" %}
-    <main class="flex-grow container mx-auto px-4 py-8">
+    <main class="flex-grow container mx-auto px-4 py-8 pt-16">
         {{ content | safe }}
         {% if components %}
             {% for component in components %}
