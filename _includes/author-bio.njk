@@ -1,0 +1,15 @@
+<div class="author-bio bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3>About the Author</h3>
+    <div class="author-info flex items-start gap-4 mt-4">
+        {% if author.avatar %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" class="w-20 h-20 rounded-full">
+        {% endif %}
+        <div class="author-details">
+            <h4 class="text-lg font-semibold mb-2">{{ author.name }}</h4>
+            <p class="text-gray-600 mb-3">{{ author.bio }}</p>
+            {% if author.twitter %}
+            <a href="https://twitter.com/{{ author.twitter }}" class="text-blue-600 hover:text-blue-800">Follow on Twitter</a>
+            {% endif %}
+        </div>
+    </div>
+</div>

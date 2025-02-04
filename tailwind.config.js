@@ -8,7 +8,12 @@ module.exports = {
     "./*.{html,md,njk}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        'content': '896px',
+        'wide': '1280px',
+      },
+    },
   },
   plugins: [],
 }

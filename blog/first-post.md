@@ -4,6 +4,10 @@ title: Getting Started with Eleventy
 date: 2024-01-15
 tags: post
 components:
+  - name: page-title.njk
+    data:
+      title: Your Page Title
+      description: A brief description of your page that will be centered below the title
   - name: rich-text.njk
     data:
       title: Why We Chose Eleventy
