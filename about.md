@@ -1,7 +1,6 @@
 ---
 layout: layout.njk
 title: About
----
 components:
   - name: page-title.njk
     data:
@@ -11,3 +10,4 @@ components:
     data:
       title: Why We Chose Eleventy
       text: After evaluating various static site generators, Eleventy stood out for its simplicity and flexibility. It allows us to build fast, maintainable websites without unnecessary complexity.
+---
