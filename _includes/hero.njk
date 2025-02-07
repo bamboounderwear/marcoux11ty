@@ -1,4 +1,4 @@
-<div class="relative h-[50vh] flex items-center justify-center overflow-hidden">
+<div class="relative h-[70vh] flex items-center justify-center overflow-hidden">
     {% if featuredImage %}
     <div class="absolute inset-0">
         <img src="{{ featuredImage }}" alt="{{ title }}" class="w-full h-full object-cover">
@@ -9,8 +9,8 @@
         {% if title %}
         <h1 class="text-white mb-4">{{ title }}</h1>
         {% endif %}
-        {% if description %}
-        <p class="text-white text-lg max-w-2xl mx-auto">{{ description }}</p>
+        {% if subtitle %}
+        <p class="text-xl text-white/80 max-w-2xl mx-auto">{{ subtitle }}</p>
         {% endif %}
     </div>
 </div>

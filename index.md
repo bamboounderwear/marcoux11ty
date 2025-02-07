@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
-title: Home
+title: Welcome to My Portfolio
+subtitle: Crafting digital experiences with passion and precision
 ---
 # Welcome to my Eleventy site
 

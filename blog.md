@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
-title: Projects
+title: Our Blog
+subtitle: Insights, updates, and stories from our journey
 ---
 <div class="max-w-wide mx-auto">
     <h1>Our Projects</h1>

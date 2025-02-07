@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
-title: About
+title: About Us
+subtitle: Get to know our team and our story
 components:
   - name: page-title.njk
     data:

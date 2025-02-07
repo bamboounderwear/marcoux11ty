@@ -1,6 +1,7 @@
 ---
 layout: layout.njk
-title: Projects
+title: Our Projects
+subtitle: A showcase of our latest work and creative endeavors
 ---
 <div class="max-w-wide mx-auto">
     <h1>Our Projects</h1>
