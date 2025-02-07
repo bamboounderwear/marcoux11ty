@@ -1,13 +1,14 @@
-<nav class="bg-white z-50 fixed top-0 left-0 w-full">
-    <div class="container max-w-wide mx-auto px-4">
+<nav class="fixed top-0 left-0 w-full z-50 transition-all duration-300" id="mainNav">
+    <div class="absolute inset-0 backdrop-blur-md transition-opacity duration-300" id="navBackdrop"></div>
+    <div class="container max-w-wide mx-auto px-4 relative">
         <div class="flex items-center justify-between py-4">
             <!-- Logo -->
             <a href="/" class="flex items-center space-x-2">
-                <img src="/assets/images/logo.png" alt="Site Logo" class="h-8 w-auto">
+                <img src="/assets/images/logo.png" alt="Site Logo" class="h-8 w-auto invert">
             </a>
 
             <!-- Menu button - always visible -->
-            <button id="menuButton" class="flex items-center text-gray-700 hover:text-gray-900 gap-2">
+            <button id="menuButton" class="flex items-center text-white hover:text-neutral-300 gap-2">
                 <span>Menu</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -23,13 +24,13 @@
                 <!-- Menu content -->
                 <div class="absolute top-[65px] inset-x-0">
                     <div class="container mx-auto px-4">
-                        <div class="bg-white rounded-lg shadow-lg">
+                        <div class="bg-neutral-900 rounded-lg shadow-lg">
                             <div class="py-4">
                                 <ul class="space-y-2">
-                                    <li><a href="/" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 font-medium rounded">Home</a></li>
-                                    <li><a href="/about" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 font-medium rounded">About</a></li>
-                                    <li><a href="/projects" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 font-medium rounded">Projects</a></li>
-                                    <li><a href="/blog" class="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900 font-medium rounded">Blog</a></li>
+                                    <li><a href="/" class="block px-4 py-2 text-white hover:bg-neutral-800 hover:text-neutral-200 font-medium rounded">Home</a></li>
+                                    <li><a href="/about" class="block px-4 py-2 text-white hover:bg-neutral-800 hover:text-neutral-200 font-medium rounded">About</a></li>
+                                    <li><a href="/projects" class="block px-4 py-2 text-white hover:bg-neutral-800 hover:text-neutral-200 font-medium rounded">Projects</a></li>
+                                    <li><a href="/blog" class="block px-4 py-2 text-white hover:bg-neutral-800 hover:text-neutral-200 font-medium rounded">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
