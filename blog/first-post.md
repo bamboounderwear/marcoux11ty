@@ -3,6 +3,7 @@ layout: layout.njk
 title: Getting Started with Eleventy
 date: 2024-01-15
 tags: post
+featuredImage: https://placehold.co/800x400/orange/white?text=Eleventy+Guide
 components:
   - name: page-title.njk
     data:
