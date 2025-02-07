@@ -2,7 +2,7 @@
 layout: layout.njk
 title: Firebarns Burger Sauce
 tags: project
-featuredImage: https://placehold.co/800x400/orange/white?text=Eleventy+Guide
+featuredImage: /assets/images/canadian.jpg
 components:
   - name: page-title.njk
     data:
