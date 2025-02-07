@@ -2,10 +2,19 @@
 layout: layout.njk
 title: Projects
 ---
-# Our Projects
+<div class="max-w-wide mx-auto">
+    <h1>Our Projects</h1>
 
-Here are some of our recent projects:
-
-{% for project in collections.project %}
-- [{{ project.data.title }}]({{ project.url }})
-{% endfor %}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
+        {%- for project in collections.project %}
+        <a href="{{ project.url }}" class="group">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/800x400" alt="Featured image for {{ project.data.title }}" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold group-hover:text-blue-600 transition-colors">{{ project.data.title }}</h2>
+                </div>
+            </div>
+        </a>
+        {%- endfor %}
+    </div>
+</div>
