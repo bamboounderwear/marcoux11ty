@@ -24,6 +24,3 @@ components:
       alt1: First showcase image
       alt2: Second showcase image
 ---
-# Getting Started with Eleventy
-
-Eleventy is a simple static site generator that's perfect for building fast websites.

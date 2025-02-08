@@ -3,10 +3,6 @@ layout: layout.njk
 title: About Us
 subtitle: Get to know our team and our story
 components:
-  - name: page-title.njk
-    data:
-      title: About us
-      description: Creativity with a flair and love for design.
   - name: rich-text.njk
     data:
       title: Why We Chose Eleventy
