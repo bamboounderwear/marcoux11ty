@@ -5,10 +5,6 @@ date: 2024-01-15
 tags: post
 featuredImage: https://placehold.co/800x400/orange/white?text=Eleventy+Guide
 components:
-  - name: page-title.njk
-    data:
-      title: Your Page Title
-      description: A brief description of your page that will be centered below the title
   - name: rich-text.njk
     data:
       title: Why We Chose Eleventy
