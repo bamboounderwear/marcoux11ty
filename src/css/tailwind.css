@@ -5,13 +5,13 @@
 /* Custom styles */
 @layer base {
   h1 {
-    @apply text-h1 font-bold mb-6 text-white;
+    @apply text-h1 mb-8 text-white;
   }
   h2 {
-    @apply text-h2 font-bold mb-4 text-white;
+    @apply text-h2 mb-6 text-white;
   }
   h3 {
-    @apply text-h3 font-bold mb-3 text-white;
+    @apply text-h3 mb-4 text-white;
   }
   p {
     @apply text-body mb-6 text-neutral-300;
