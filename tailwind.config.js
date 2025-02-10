@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       maxWidth: {
         'content': '896px',
-        'wide': '1280px',
+        'wide': '1440px', // Increased from 1280px to 1440px
       },
     },
     container: {
