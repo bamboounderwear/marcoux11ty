@@ -34,17 +34,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle navbar background on scroll
     function updateNavBackground() {
-        if (window.scrollY > 50) {
-            navBackdrop.classList.add('opacity-100');
-            navBackdrop.classList.remove('opacity-0');
+        const scrolled = window.scrollY > 0;
+        const opacity = Math.min((window.scrollY / 200) + 0.1, 1);
+        
+        if (scrolled) {
+            navBackdrop.style.opacity = opacity;
         } else {
-            navBackdrop.classList.add('opacity-0');
-            navBackdrop.classList.remove('opacity-100');
+            navBackdrop.style.opacity = 0.1;
         }
     }
 
     // Initial state
-    navBackdrop.classList.add('opacity-0');
+    navBackdrop.style.opacity = 0.1;
     
     window.addEventListener('scroll', updateNavBackground);
     updateNavBackground(); // Initial check
