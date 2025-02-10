@@ -3,6 +3,7 @@ layout: layout.njk
 title: Firebarns Burger Sauce
 subtitle: I strategized and created an advertising campaign to promote the all-new burger sauce by Firebarns.
 tags: project
+category: Advertising Campaign
 featuredImage: /assets/images/canadian.jpg
 components:
   - name: rich-text.njk
