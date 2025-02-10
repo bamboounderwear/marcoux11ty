@@ -1,37 +1,40 @@
 <nav class="fixed top-0 left-0 w-full z-50 transition-all duration-300" id="mainNav">
     <div class="absolute inset-0 backdrop-blur-md transition-opacity duration-300" id="navBackdrop"></div>
-    <div class="container max-w-wide mx-auto px-4 relative z-10">
-        <div class="flex items-center justify-between py-4">
-            <!-- Logo -->
-            <a href="/" class="flex items-center space-x-2">
-                <img src="/assets/images/logo.png" alt="Site Logo" class="h-8 w-auto invert">
-            </a>
+    <div class="w-full relative">
+        <div class="absolute inset-0 border-b border-white/10 mix-blend-screen"></div>
+        <div class="container max-w-wide mx-auto px-4 relative z-10">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <a href="/" class="flex items-center space-x-2">
+                    <img src="/assets/images/logo.png" alt="Site Logo" class="h-8 w-auto invert">
+                </a>
 
-            <!-- Menu button - always visible -->
-            <button id="menuButton" class="flex items-center text-white hover:text-neutral-300 gap-2 relative z-50">
-                <span class="menu-text">Menu</span>
-                <!-- Hamburger icon -->
-                <svg class="menu-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-                <!-- Close icon -->
-                <svg class="close-icon w-6 h-6 absolute right-0 top-1/2 -translate-y-1/2 opacity-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
+                <!-- Menu button - always visible -->
+                <button id="menuButton" class="flex items-center text-white hover:text-neutral-300 gap-2 relative z-50">
+                    <span class="menu-text">Menu</span>
+                    <!-- Hamburger icon -->
+                    <svg class="menu-icon w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    <!-- Close icon -->
+                    <svg class="close-icon w-6 h-6 absolute right-0 top-1/2 -translate-y-1/2 opacity-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
 
-            <!-- Menu - hidden by default -->
-            <div id="mobileMenu" class="fixed inset-0 z-40 bg-black opacity-0 pointer-events-none transition-opacity duration-300">
-                <div class="h-full flex items-center justify-center">
-                    <ul class="space-y-6 text-center">
-                        <li><a href="/" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Home</a></li>
-                        <li><a href="/about" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">About</a></li>
-                        <li><a href="/projects" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Projects</a></li>
-                        <li><a href="/blog" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Blog</a></li>
-                    </ul>
+                <!-- Menu - hidden by default -->
+                <div id="mobileMenu" class="fixed inset-0 z-40 bg-black opacity-0 pointer-events-none transition-opacity duration-300">
+                    <div class="h-full flex items-center justify-center">
+                        <ul class="space-y-6 text-center">
+                            <li><a href="/" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Home</a></li>
+                            <li><a href="/about" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">About</a></li>
+                            <li><a href="/projects" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Projects</a></li>
+                            <li><a href="/blog" class="block text-3xl font-medium text-white hover:text-neutral-300 transition-colors">Blog</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
