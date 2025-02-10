@@ -4,8 +4,6 @@ title: Our Blog
 subtitle: Insights, updates, and stories from our journey
 ---
 <div class="max-w-wide mx-auto">
-    <h1>Our Blog</h1>
-
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         {%- for post in collections.post %}
         <a href="{{ post.url }}" class="group block relative">

@@ -4,8 +4,6 @@ title: Our Projects
 subtitle: A showcase of our latest work and creative endeavors
 ---
 <div class="max-w-wide mx-auto">
-    <h1>Our Projects</h1>
-
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         {%- for project in collections.project %}
         <a href="{{ project.url }}" class="group block relative">
