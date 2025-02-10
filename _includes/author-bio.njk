@@ -1,8 +1,8 @@
-<div class="author-bio bg-white p-6 rounded-lg shadow-md mb-8">
+<div class="author-bio bg-white p-6 mb-8">
     <h3>About the Author</h3>
     <div class="author-info flex items-start gap-4 mt-4">
         {% if author.avatar %}
-        <img src="{{ author.avatar }}" alt="{{ author.name }}" class="w-20 h-20 rounded-full">
+        <img src="{{ author.avatar }}" alt="{{ author.name }}" class="w-20 h-20">
         {% endif %}
         <div class="author-details">
             <h4 class="text-lg font-semibold mb-2">{{ author.name }}</h4>

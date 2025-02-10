@@ -2,12 +2,12 @@
     <div class="flex flex-col md:flex-row gap-4">
         {% if data.image1 %}
         <div class="w-full md:w-1/2">
-            <img src="{{ data.image1 }}" alt="{{ data.alt1 or 'First image' }}" class="w-full h-auto rounded-lg shadow-md">
+            <img src="{{ data.image1 }}" alt="{{ data.alt1 or 'First image' }}" class="w-full h-auto">
         </div>
         {% endif %}
         {% if data.image2 %}
         <div class="w-full md:w-1/2">
-            <img src="{{ data.image2 }}" alt="{{ data.alt2 or 'Second image' }}" class="w-full h-auto rounded-lg shadow-md">
+            <img src="{{ data.image2 }}" alt="{{ data.alt2 or 'Second image' }}" class="w-full h-auto">
         </div>
         {% endif %}
     </div>

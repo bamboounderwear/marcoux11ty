@@ -5,7 +5,7 @@
             <img 
                 src="{{ data.image }}" 
                 alt="{{ data.imageAlt or 'Featured image' }}" 
-                class="w-full h-auto rounded-lg shadow-md object-cover aspect-[4/3]"
+                class="w-full h-auto object-cover aspect-[4/3]"
             >
             {% endif %}
         </div>
@@ -21,7 +21,7 @@
             {% if data.buttonText and data.buttonUrl %}
             <a 
                 href="{{ data.buttonUrl }}" 
-                class="inline-flex items-center mt-6 px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-colors"
+                class="inline-flex items-center mt-6 px-6 py-3 border border-transparent text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors"
             >
                 {{ data.buttonText }}
             </a>
