@@ -3,7 +3,7 @@ layout: layout.njk
 title: Firebarns 2025 Superbowl Commercial
 subtitle: A Pixar-style film where hot sauce = dog-level loyalty.
 tags: project
-featuredImage: /assets/images/loyal.png
+featuredImage: /assets/images/fbsb.gif
 components:
   - name: rich-text.njk
     data:
